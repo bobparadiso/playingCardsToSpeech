@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 # Author: Bob Paradiso
-# slight edits to 
+# slight edits to add speaking card names
 
 import binascii
 import sys
