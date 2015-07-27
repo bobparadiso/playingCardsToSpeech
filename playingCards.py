@@ -32,7 +32,7 @@ import os
 
 def speak(text):
 	#os.system('espeak "' + text + '"  -ven+f3 -k5 -s150');
-	os.system('/home/pi/speech.sh "' + text + '"');
+	os.system('./speech.sh "' + text + '"');
 
 # Setup how the PN532 is connected to the Raspbery Pi/BeagleBone Black.
 # It is recommended to use a software SPI connection with 4 digital GPIO pins.
