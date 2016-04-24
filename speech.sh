@@ -1,3 +1,4 @@
 #!/bin/bash
-say() { local IFS=+;/usr/bin/mplayer -ao alsa -really-quiet -noconsolecontrols $
-say $*
+
+#espeak "$*" --stdout | aplay -Dplughw:1,0 -s150 -k5 -ven+f3
+espeak "$*" -s150 -k5 -ven+f3
